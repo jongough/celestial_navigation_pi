@@ -139,13 +139,13 @@ void Sight::BodyLocation(wxDateTime time, double *lat, double *lon, double *ghaa
     astrolabe::globals::vsop87d_text_path = (const char *)GetpSharedDataLocation()->mb_str();
     astrolabe::globals::vsop87d_text_path.append("plugins/celestial_navigation_pi/data/");
     astrolabe::globals::vsop87d_text_path.append("vsop87d.txt");
-//>>>>>>> parent of 547ae52... android support
-//=======
+/*>>>>>>> parent of 547ae52... android support
+=======
     astrolabe::globals::vsop87d_text_path = (const char *)GetpSharedDataLocation()->mb_str();
     astrolabe::globals::vsop87d_text_path.append("plugins/celestial_navigation_pi/data/");
     astrolabe::globals::vsop87d_text_path.append("vsop87d.txt");
 //>>>>>>> parent of 547ae52... android support
-
+*/
     time.MakeFromUTC();
     double jdu = time.GetJulianDayNumber();
     // julian day dynamic
