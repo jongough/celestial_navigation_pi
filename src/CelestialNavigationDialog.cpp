@@ -160,7 +160,7 @@ CelestialNavigationDialog::CelestialNavigationDialog(wxWindow *parent)
             fn.Mkdir();
         }
     }
-<<<<<<< HEAD
+// HEAD  
 
     
     wxString filename = DataDirectory() + "vsop87d.txt";
@@ -189,7 +189,7 @@ CelestialNavigationDialog::CelestialNavigationDialog(wxWindow *parent)
             // now decompress downloaded file
             ZUFILE *f = zu_open(path+fn.mb_str(), "rb", ZU_COMPRESS_AUTO);
             if(f) {
-                FILE *out = fopen(path+"vsop87d.txt", "w");
+                 FILE *out = fopen(path+"vsop87d.txt", "w");
                 if(out) {
                     char buf[1024];
                     for(;;) {
@@ -210,8 +210,8 @@ CelestialNavigationDialog::CelestialNavigationDialog(wxWindow *parent)
     GetHandle()->setStyleSheet( qtStyleSheet);
     Move(0, 0);
 #endif
-=======
->>>>>>> parent of ddd0bac... android build
+//=======
+//>>>>>>> parent of ddd0bac... android build
 }
 
 CelestialNavigationDialog::~CelestialNavigationDialog()
