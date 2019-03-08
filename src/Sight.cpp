@@ -178,12 +178,12 @@ void Sight::BodyLocation(wxDateTime time, double *lat, double *lon, double *ghaa
 //=======
 //=======
 //>>>>>>> parent of 547ae52... android support
-            wxMessageDialog mdlg(NULL, _("Astrolab failed, data unavailable:\n")
-                                 + err + _("\nDid you forget to install vsop87d.txt?\n")
-                                 +_("The plugin will not work correctly"),
-                                 wxString(_("Failure Alert"), wxOK | wxICON_ERROR));
-            mdlg.ShowModal();
-            showonce = true;
+//            wxMessageDialog mdlg(NULL, _("Astrolab failed, data unavailable:\n")
+//                                 + err + _("\nDid you forget to install vsop87d.txt?\n")
+//                                 +_("The plugin will not work correctly"),
+//                                 wxString(_("Failure Alert"), wxOK | wxICON_ERROR));
+//            mdlg.ShowModal();
+//            showonce = true;
 //<<<<<<< HEAD
 //>>>>>>> parent of 547ae52... android support
 //=======
