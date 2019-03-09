@@ -47,7 +47,9 @@ SET(SRC_CELESTIAL_NAVIGATION
           src/transform_star.cpp
           src/epv00.cpp
           src/celestial_navigation_pi.cpp
-	)
+)
+INCLUDE("cmake/PluginXML.cmake")
+INCLUDE("cmake/PluginGL.cmake")
 
 IF(WIN32)
 SET(SRC_TINYXML
